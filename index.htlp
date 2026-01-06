@@ -1,0 +1,123 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stream Commands</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #24292e;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+            background-color: #ffffff;
+        }
+
+        h1 {
+            border-bottom: 1px solid #eaecef;
+            padding-bottom: 0.3em;
+            font-weight: 600;
+        }
+
+        h2 {
+            margin-top: 24px;
+            font-weight: 600;
+        }
+
+        .command-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .command-item {
+            background: #f6f8fa;
+            border: 1px solid #d1d5da;
+            border-radius: 3px;
+            padding: 8px 12px;
+            font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+            font-size: 0.9em;
+            color: #0366d6;
+        }
+
+        .category-label {
+            display: block;
+            margin-top: 30px;
+            font-size: 0.85em;
+            text-transform: uppercase;
+            color: #6a737d;
+            letter-spacing: 0.5px;
+            font-weight: bold;
+        }
+
+        footer {
+            margin-top: 60px;
+            padding-top: 20px;
+            border-top: 1px solid #eaecef;
+            font-size: 0.8em;
+            color: #6a737d;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Chat Commands</h1>
+    <p>A reference list for interactive commands used during the stream.</p>
+
+    <span class="category-label">Social & Interaction</span>
+    <div class="command-grid">
+        <div class="command-item">!hug @username</div>
+        <div class="command-item">!spreadlove</div>
+        <div class="command-item">!modlove</div>
+        <div class="command-item">!discord</div>
+        <div class="command-item">!pronouns</div>
+    </div>
+
+    <span class="category-label">Alerts & Effects</span>
+    <div class="command-grid">
+        <div class="command-item">!ohno</div>
+        <div class="command-item">!fast</div>
+        <div class="command-item">!chaos</div>
+        <div class="command-item">!chill</div>
+        <div class="command-item">!bubbles</div>
+        <div class="command-item">!confetti</div>
+        <div class="command-item">!rave</div>
+        <div class="command-item">!gif</div>
+    </div>
+
+    <span class="category-label">Audio & Reactions</span>
+    <div class="command-grid">
+        <div class="command-item">!fart</div>
+        <div class="command-item">!poopy</div>
+        <div class="command-item">!shrek</div>
+        <div class="command-item">!drums</div>
+        <div class="command-item">!drumroll</div>
+        <div class="command-item">!nuts</div>
+        <div class="command-item">!clap</div>
+    </div>
+
+    <span class="category-label">General</span>
+    <div class="command-grid">
+        <div class="command-item">!happy</div>
+        <div class="command-item">!tuckertreats</div>
+        <div class="command-item">!save</div>
+        <div class="command-item">!cheer</div>
+        <div class="command-item">!dadjoke</div>
+        <div class="command-item">!fuckitall</div>
+        <div class="command-item">!gg</div>
+        <div class="command-item">!hype</div>
+        <div class="command-item">!lurk</div>
+        <div class="command-item">!unlurk</div>
+        <div class="command-item">!gameover</div>
+        <div class="command-item">!fu</div>
+    </div>
+
+    <footer>
+        Last updated: 2024
+    </footer>
+
+</body>
+</html>
